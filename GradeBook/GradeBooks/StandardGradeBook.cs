@@ -4,7 +4,11 @@ using System.Text;
 
 namespace GradeBook.GradeBooks
 {
-    internal class Class1
+    public class StandardGradeBook : BaseGradeBook
     {
+        public StandardGradeBook(string name) : base(name)
+        {
+
+        }
     }
 }
