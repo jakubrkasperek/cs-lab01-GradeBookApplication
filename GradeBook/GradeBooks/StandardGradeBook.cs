@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using GradeBook.Enums;
 
 namespace GradeBook.GradeBooks
 {
@@ -10,5 +11,8 @@ namespace GradeBook.GradeBooks
         {
 
         }
+
+        public GradeBookType Type = GradeBookType.Standard;
+
     }
 }
