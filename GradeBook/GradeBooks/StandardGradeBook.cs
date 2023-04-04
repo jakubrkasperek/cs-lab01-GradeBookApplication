@@ -12,7 +12,7 @@ namespace GradeBook.GradeBooks
 
         }
 
-        public GradeBookType Type = GradeBookType.Standard;
+        public new GradeBookType Type = GradeBookType.Standard;
 
     }
 }
